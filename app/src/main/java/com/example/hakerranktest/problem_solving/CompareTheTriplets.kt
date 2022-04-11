@@ -46,5 +46,11 @@ class CompareTheTriplets {
     }
 
 
+    fun solve3(a:Array<Int>,b:Array<Int>):Array<Int>
+    {
+        aliceCounter=a.zip(b).count { it.first>it.second }
+        bobCounter=b.zip(a).count{it.first>it.second}
+        return arrayOf(aliceCounter,bobCounter)
+    }
     //endregion
 }
