@@ -1,13 +1,14 @@
 package com.example.hakerranktest
 
 import com.example.hakerranktest.problem_solving.CompareTheTriplets
+import com.example.hakerranktest.problem_solving.PlusMinus
 
 fun main(args: Array<String>) {
 
-    val aliceArray = arrayOf( 5, 6, 7)
-    val bobArray = arrayOf(3,6,10)
+    val array = arrayOf( 1,1,0,-1,-1)
 
-    val result = CompareTheTriplets().solve3(aliceArray,bobArray)
+
+    val result = PlusMinus().solve1(array)
 
     println(result.joinToString(" "))
 
