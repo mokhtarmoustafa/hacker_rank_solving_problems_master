@@ -33,6 +33,18 @@ class CompareTheTriplets {
         return result
     }
 
+    fun solve2(a: Array<Int>, b: Array<Int>): Array<Int> {
+
+        for (i in 0..2) {
+            if (a[i] > b[i])
+                aliceCounter++
+            if (b[i] > a[i])
+                bobCounter++
+        }
+        result = arrayOf(aliceCounter, bobCounter)
+        return result
+    }
+
 
     //endregion
 }
