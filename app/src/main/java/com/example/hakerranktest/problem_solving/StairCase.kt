@@ -17,4 +17,14 @@ class StairCase {
         }
 
     }
+
+    fun solve1(number: Int) {
+        for (i in 1..number) {
+            print(" ".repeat(number-i))
+            print("#".repeat(i))
+            println()
+
+        }
+
+    }
 }

@@ -6,7 +6,7 @@ import com.example.hakerranktest.problem_solving.StairCase
 
 fun main(args: Array<String>) {
 
-    StairCase().solve(5)
+    StairCase().solve1(5)
 
 
 
