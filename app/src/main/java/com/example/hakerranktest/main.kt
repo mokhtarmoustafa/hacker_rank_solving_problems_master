@@ -1,13 +1,15 @@
 package com.example.hakerranktest
 
-import com.example.hakerranktest.problem_solving.PlusMinus
+import com.example.hakerranktest.problem_solving.DiagonalDifference
+import com.example.hakerranktest.problem_solving.MinMaxSum
 
 fun main(args: Array<String>) {
 
-    val array = arrayOf( 1,1,0,-1,-1)
+    val array1 = arrayOf( 1, 2, 3, 4, 5)
 
 
-   PlusMinus().solve1(array)
+
+    MinMaxSum().solve(array1)
 
 
 
