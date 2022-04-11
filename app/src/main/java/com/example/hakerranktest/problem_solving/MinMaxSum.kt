@@ -3,8 +3,8 @@ package com.example.hakerranktest.problem_solving
 class MinMaxSum {
 
     fun solve(arr: Array<Int>): Unit {
-        var minSum = 0
-        var maxSum = 0
+        var minSum = 0L
+        var maxSum = 0L
         // Write your code here
         arr.sort()
         val size = arr.size
@@ -15,8 +15,7 @@ class MinMaxSum {
                 maxSum += arr[i]
         }
 
-        println(minSum)
-        println(maxSum)
+        println("$minSum $maxSum")
     }
 
 }
