@@ -1,18 +1,15 @@
 package com.example.hakerranktest
 
-import com.example.hakerranktest.problem_solving.SimpleArraySum
+import com.example.hakerranktest.problem_solving.CompareTheTriplets
 
 fun main(args: Array<String>) {
 
-//region Simple Array Sum
-val simpleArraySum= arrayOf(1,5,10,15,30)
-    //complex
-    val value1=SimpleArraySum().getSimpleArraySum(simpleArraySum)
-    println(value1)
+    val aliceArray = arrayOf( 5, 6, 7)
+    val bobArray = arrayOf(3,6,10)
+    val result = CompareTheTriplets().solve1(aliceArray,bobArray)
 
-    //simple
-    val value2=SimpleArraySum().getSimpleArraySumEasy(simpleArraySum)
-    println(value2)
+    println(result.joinToString(" "))
 
-    //endregion
+
+
 }
