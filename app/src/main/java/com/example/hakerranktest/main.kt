@@ -8,9 +8,9 @@ fun main(args: Array<String>) {
     val array = arrayOf( 1,1,0,-1,-1)
 
 
-    val result = PlusMinus().solve1(array)
+    val result = PlusMinus().solve2(array)
 
-    println(result.joinToString(" "))
+    println(result.joinToString("\n"))
 
 
 

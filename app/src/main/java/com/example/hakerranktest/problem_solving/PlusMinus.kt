@@ -29,5 +29,18 @@ class PlusMinus {
             zerosNumber / a.size.toDouble()
         )
     }
+
+    fun solve2(a: Array<Int>): Array<Double> {
+
+        positiveNumber=a.count { it>0 }
+        negativeNumber=a.count { it<0 }
+        zerosNumber=a.count { it==0 }
+
+        return arrayOf(
+            positiveNumber / a.size.toDouble(),
+            negativeNumber / a.size.toDouble(),
+            zerosNumber / a.size.toDouble()
+        )
+    }
     //endregion
 }
