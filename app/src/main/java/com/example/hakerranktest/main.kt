@@ -1,6 +1,5 @@
 package com.example.hakerranktest
 
-import com.example.hakerranktest.problem_solving.CompareTheTriplets
 import com.example.hakerranktest.problem_solving.PlusMinus
 
 fun main(args: Array<String>) {
