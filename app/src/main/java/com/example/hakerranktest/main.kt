@@ -7,9 +7,9 @@ fun main(args: Array<String>) {
     val array = arrayOf( 1,1,0,-1,-1)
 
 
-    val result = PlusMinus().solve2(array)
+   PlusMinus().solve1(array)
 
-    println(result.joinToString("\n"))
+
 
 
 

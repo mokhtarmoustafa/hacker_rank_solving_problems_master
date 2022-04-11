@@ -11,7 +11,7 @@ class PlusMinus {
     //endregion
 
     //region functions
-    fun solve1(a: Array<Int>): Array<Double> {
+    fun solve1(a: Array<Int>) {
 
         for (number in a) {
             if (number > 0)
@@ -23,24 +23,25 @@ class PlusMinus {
                 zerosNumber++
         }
 
-        return arrayOf(
-            positiveNumber / a.size.toDouble(),
-            negativeNumber / a.size.toDouble(),
-            zerosNumber / a.size.toDouble()
-        )
+        println("%.6f".format(  positiveNumber / a.size.toDouble()))
+        println("%.6f".format(  negativeNumber / a.size.toDouble()))
+        println("%.6f".format(  zerosNumber / a.size.toDouble()))
+
+
+
     }
 
-    fun solve2(a: Array<Int>): Array<Double> {
+    fun solve2(a: Array<Int>) {
 
         positiveNumber=a.count { it>0 }
         negativeNumber=a.count { it<0 }
         zerosNumber=a.count { it==0 }
 
-        return arrayOf(
-            positiveNumber / a.size.toDouble(),
-            negativeNumber / a.size.toDouble(),
-            zerosNumber / a.size.toDouble()
-        )
+
+
+        println("%.6f".format(  positiveNumber / a.size.toDouble()))
+        println("%.6f".format(  negativeNumber / a.size.toDouble()))
+        println("%.6f".format(  zerosNumber / a.size.toDouble()))
     }
     //endregion
 }
