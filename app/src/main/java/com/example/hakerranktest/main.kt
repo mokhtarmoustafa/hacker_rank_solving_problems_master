@@ -1,13 +1,13 @@
 package com.example.hakerranktest
 
-import com.example.hakerranktest.problem_solving.TimeConversion
+import com.example.hakerranktest.problem_solving.CamelCase
 
 
 fun main(args: Array<String>) {
 
-    var time = "12:45:54PM"
-   val output=TimeConversion().solve1(time)
-    println(output)
+    var phrase = "hi My Name Is Mokhtar"
+
+    print(CamelCase().solve1(phrase))
 
 
 }
