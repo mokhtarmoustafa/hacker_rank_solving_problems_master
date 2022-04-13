@@ -1,15 +1,15 @@
 package com.example.hakerranktest
 
 import com.example.hakerranktest.problem_solving.BirthdayCakeCandles
+import com.example.hakerranktest.problem_solving.TimeConversion
+import java.util.*
 
 
 fun main(args: Array<String>) {
 
-    var array = arrayOf(4, 4, 4, 3)
-    val count = BirthdayCakeCandles().solve2(array)
-
-    print(count.toString())
-
+    var time = "12:45:54PM"
+   val output=TimeConversion().solve1(time)
+    println(output)
 
 
 }
