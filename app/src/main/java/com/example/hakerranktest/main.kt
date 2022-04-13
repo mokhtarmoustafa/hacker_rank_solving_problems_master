@@ -1,12 +1,14 @@
 package com.example.hakerranktest
 
-import com.example.hakerranktest.problem_solving.DiagonalDifference
-import com.example.hakerranktest.problem_solving.MinMaxSum
-import com.example.hakerranktest.problem_solving.StairCase
+import com.example.hakerranktest.problem_solving.BirthdayCakeCandles
+
 
 fun main(args: Array<String>) {
 
-    StairCase().solve2(5)
+    var array = arrayOf(4, 4, 4, 3)
+    val count = BirthdayCakeCandles().solve1(array)
+
+    print(count.toString())
 
 
 
