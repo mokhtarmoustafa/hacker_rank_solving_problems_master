@@ -18,4 +18,13 @@ class MinMaxSum {
         println("$minSum $maxSum")
     }
 
+    fun solve2(arr: Array<Int>)
+    {
+        arr.sort()
+        val minSum=arr.slice(0..3).sum()
+        val maxSum=arr.slice(1..4).sum()
+
+        println("$minSum $maxSum")
+    }
+
 }

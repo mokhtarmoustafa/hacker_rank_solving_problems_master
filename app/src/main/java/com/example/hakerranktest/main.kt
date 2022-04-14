@@ -1,13 +1,18 @@
 package com.example.hakerranktest
 
-import com.example.hakerranktest.problem_solving.CamelCase
-
+import com.example.hakerranktest.problem_solving.DiagonalDifference
+import com.example.hakerranktest.problem_solving.MinMaxSum
 
 fun main(args: Array<String>) {
 
-    var phrase = "hi My Name Is Mokhtar"
+    val array1 = arrayOf( 1, 2, 3, 4, 5)
 
-    print(CamelCase().solve1(phrase))
+
+
+    MinMaxSum().solve2(array1)
+
+
+
 
 
 }
