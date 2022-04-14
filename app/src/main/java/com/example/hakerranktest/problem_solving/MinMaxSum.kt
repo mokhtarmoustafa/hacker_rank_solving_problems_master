@@ -20,10 +20,11 @@ class MinMaxSum {
 
     fun solve2(arr: Array<Int>)
     {
+        var sum=0L
         arr.sort()
-        val minSum=arr.slice(0..3).sum()
-        val maxSum=arr.slice(1..4).sum()
-
+        val minSum=arr.slice(0..3).sum().toLong()
+        arr.slice(1..4).forEach { sum+=it }
+        val maxSum=sum
         println("$minSum $maxSum")
     }
 
