@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
 
 
 
-    MinMaxSum().solve(array1)
+    MinMaxSum().solve2(array1)
 
 
 
